@@ -32,8 +32,26 @@
   color: white;
 }
 
+.cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  border: #0ca6d1;
+  width: 20%;
+  border-style: solid;
+  border-width: 2px;
+  margin: 10px;
+  padding: 20px
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.text-green {
+  color: green;
 }
 
 @keyframes App-logo-spin {
